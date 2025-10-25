@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Dine - Menu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 class="logo">Smart Dine 🍽️</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html" class="active">Menu</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="menu-page">
+    <h2>Our Menu</h2>
+    <p id="tableInfo"></p>
+    <div id="menu" class="menu-grid"></div>
+    <button id="viewCartBtn" class="btn">🛒 Cart (0)</button>
+  </section>
+
+  <!-- Cart Modal -->
+  <div id="orderModal" class="modal hidden">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <h2>Order Summary</h2>
+      <ul id="orderList"></ul>
+      <p id="totalPrice"></p>
+      <button id="placeOrderBtn" class="btn">Place Order</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Smart Dine | Designed by Mohd Sohel</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

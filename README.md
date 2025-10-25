@@ -27,6 +27,8 @@
 ---
 
 ## Project Structure
+
+```
 smart-dine/
 │
 ├─ index.html # Home page with hero section, QR scanner, About & Contact
@@ -35,7 +37,7 @@ smart-dine/
 ├─ script.js # JavaScript for QR scanner, menu, cart, and contact form
 └─ README.md # Project documentation
 
----
+```
 
 ## Usage
 

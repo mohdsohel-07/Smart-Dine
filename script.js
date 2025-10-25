@@ -20,9 +20,9 @@ document.addEventListener("DOMContentLoaded",()=>{
     const menuItems=[
       {name:"Margherita Pizza",price:250,img:"https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg"},
       {name:"Cheese Burger",price:150,img:"https://images.unsplash.com/photo-1568901346375-23c9450c58cd"},
-      {name:"Pasta Alfredo",price:180,img:"https://images.unsplash.com/photo-1589302168068-964664d93dc0"},
-      {name:"Cold Coffee",price:90,img:"https://images.unsplash.com/photo-1551024601-bec78aea704b"},
-      {name:"French Fries",price:100,img:"https://images.unsplash.com/photo-1550547660-d9450f859349"},
+      {name:"Biryani",price:180,img:"https://images.unsplash.com/photo-1589302168068-964664d93dc0"},
+      {name:"Doughnut",price:90,img:"https://images.unsplash.com/photo-1551024601-bec78aea704b"},
+      {name:"Hamburger",price:100,img:"https://images.unsplash.com/photo-1550547660-d9450f859349"},
       {name:"Brownie Sundae",price:120,img:"https://upload.wikimedia.org/wikipedia/commons/6/68/Chocolatebrownie.JPG"},
     ];
     const cart=[];
@@ -93,3 +93,4 @@ document.addEventListener("DOMContentLoaded",()=>{
   }
 
 });
+
